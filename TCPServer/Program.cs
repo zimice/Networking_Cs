@@ -6,7 +6,7 @@ namespace TCPServer
     {
         static void Main(string[] args)
         {
-            TcpServer server = new TcpServer(65525);
+            Server server = new Server();
         }
     }
 }
