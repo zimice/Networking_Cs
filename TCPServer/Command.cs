@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TCPServer
 {
-    abstract class Command
+    public abstract class Command
     {
         public abstract string[] Alias() ;
         public abstract string Execute();

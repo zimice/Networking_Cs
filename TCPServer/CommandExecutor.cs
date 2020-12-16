@@ -1,15 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace TCPServer
 {
-    class CommandExecutor
+    public class CommandExecutor
     {
         private static Dictionary<string, Command> commands;
-        public CommandExecutor()
+        public CommandExecutor(StreamWriter sWriter, StreamReader sReader)
         {
+            VowelsCommand vowelscomm = new VowelsCommand(sWriter,sReader);
+            HelpCommand helpcomm = new HelpCommand();
 
+          //  foreach(string alias in )
+           // commands.Add()
         }
 
     }
