@@ -23,7 +23,7 @@ namespace TCPServer
 
         public override string Execute()
         {
-            char[] vowels = { 'a', 'e', 'i', 'o', 'u','á','í','é','ů','ú'};
+            char[] vowels = { 'a', 'e', 'i', 'o', 'u','á','í','é','ů','ú','ó'};
             char[] constant = { 'q', 'w', 'r', 't', 'y', 'p', 's', 'd','f','g','h','j','k','l','z','x','c','v','b','n','m' };
             //regex is an better option
             writer.WriteLine("Server>Napiste slovo na spocitani");
