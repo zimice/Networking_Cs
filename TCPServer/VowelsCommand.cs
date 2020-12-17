@@ -24,6 +24,7 @@ namespace TCPServer
         public override string Execute()
         {
             char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
+            char[] constant = { 'q', 'w', 'r', 't', 'y', 'p', 's', 'd','f','g','h','j','k','l','z','x','c','v','b','n','m' };
             writer.WriteLine("Server>Napiste slovo na spocitani");
             writer.Write("Client> ");
             writer.Flush();
@@ -34,7 +35,8 @@ namespace TCPServer
             foreach (char vowel in vowels)
                 vowelCount += sData.Split(vowel).Length - 1;
 
-            consonantCount = sData.Length - vowelCount;
+            foreach (char constant in vowels)
+                consonantCount += sData.Split(constant).Length - 1;
             return "Vowel count: " + vowelCount + " Consonant count: " + consonantCount;
         }
 

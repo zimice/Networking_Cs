@@ -53,10 +53,13 @@ namespace TCPServer
             {
                 sWriter.Flush();
 
-               // sData = sReader.ReadLine();
-               // sData = formatInput(sData);
-                VowelsCommand vowelC = new VowelsCommand(sWriter, sReader);
-                sWriter.WriteLine(vowelC.Execute());
+                // sData = sReader.ReadLine();
+                // sData = formatInput(sData);
+                CommandExecutor cme = new CommandExecutor(sWriter,sReader);
+                //VowelsCommand vowelC = new VowelsCommand(sWriter, sReader);
+                sWriter.WriteLine("Zadej prikaz: ");
+                // sWriter.WriteLine(vowelC.Execute());
+                sWriter.WriteLine(cme.ExecuteCommand());
               //  sWriter.WriteLine("");
                 sWriter.Flush();
             }

@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Simon\\.nuget\\packages\\": {}
+    "C:\\Users\\kochanek\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Simon\\Downloads\\TCPServer\\TCPServer\\TCPServer\\TCPServer.csproj",
+      "projectUniqueName": "C:\\Users\\kochanek\\Downloads\\Networking_Cs\\TCPServer\\TCPServer.csproj",
       "projectName": "TCPServer",
-      "projectPath": "C:\\Users\\Simon\\Downloads\\TCPServer\\TCPServer\\TCPServer\\TCPServer.csproj",
-      "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Simon\\Downloads\\TCPServer\\TCPServer\\TCPServer\\obj\\",
+      "projectPath": "C:\\Users\\kochanek\\Downloads\\Networking_Cs\\TCPServer\\TCPServer.csproj",
+      "packagesPath": "C:\\Users\\kochanek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kochanek\\Downloads\\Networking_Cs\\TCPServer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kochanek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -44,21 +48,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }

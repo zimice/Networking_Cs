@@ -12,10 +12,14 @@ namespace TCPServer
         {
             VowelsCommand vowelscomm = new VowelsCommand(sWriter,sReader);
             HelpCommand helpcomm = new HelpCommand();
+            List<Command> commandList = new List<>();
+            foreach (Command c  in commandList)
+                foreach(string alias in c.Alias())
+                 commands.Add(alias,commandList);
 
-          //  foreach(string alias in )
-           // commands.Add()
         }
-
+        public string ExecuteCommand() {
+            return commands.get(sReader.ReadLine());
+        }
     }
 }
