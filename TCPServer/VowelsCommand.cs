@@ -23,26 +23,28 @@ namespace TCPServer
 
         public override string Execute()
         {
-            char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
+            char[] vowels = { 'a', 'e', 'i', 'o', 'u','á','í','é','ů','ú'};
             char[] constant = { 'q', 'w', 'r', 't', 'y', 'p', 's', 'd','f','g','h','j','k','l','z','x','c','v','b','n','m' };
+            //regex is an better option
             writer.WriteLine("Server>Napiste slovo na spocitani");
             writer.Write("Client> ");
             writer.Flush();
             String sData = reader.ReadLine();
+            sData = sData.ToLower();
             Console.WriteLine(sData);
             int vowelCount=0;
             int consonantCount=0;
             foreach (char vowel in vowels)
                 vowelCount += sData.Split(vowel).Length - 1;
 
-            foreach (char constant in vowels)
-                consonantCount += sData.Split(constant).Length - 1;
+            foreach (char consonant in vowels)
+                consonantCount += sData.Split(consonant).Length - 1;
             return "Vowel count: " + vowelCount + " Consonant count: " + consonantCount;
         }
 
         public override string getHelp()
         {
-            return "This command return count of vowels and souhlasek";
+            return "This command returns count of vowels and souhlasek in  word given to in command";
         }
     }
 }

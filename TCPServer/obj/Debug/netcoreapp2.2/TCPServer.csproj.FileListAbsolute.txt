@@ -1,0 +1,11 @@
+C:\Users\kochanek\Downloads\Networking_Cs\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.csprojAssemblyReference.cache
+C:\Users\kochanek\Downloads\Networking_Cs\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.csproj.CoreCompileInputs.cache
+C:\Users\kochanek\Downloads\Networking_Cs\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.AssemblyInfoInputs.cache
+C:\Users\kochanek\Downloads\Networking_Cs\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.AssemblyInfo.cs
+C:\Users\kochanek\Downloads\Networking_Cs\TCPServer\bin\Debug\netcoreapp2.2\TCPServer.deps.json
+C:\Users\kochanek\Downloads\Networking_Cs\TCPServer\bin\Debug\netcoreapp2.2\TCPServer.runtimeconfig.json
+C:\Users\kochanek\Downloads\Networking_Cs\TCPServer\bin\Debug\netcoreapp2.2\TCPServer.runtimeconfig.dev.json
+C:\Users\kochanek\Downloads\Networking_Cs\TCPServer\bin\Debug\netcoreapp2.2\TCPServer.dll
+C:\Users\kochanek\Downloads\Networking_Cs\TCPServer\bin\Debug\netcoreapp2.2\TCPServer.pdb
+C:\Users\kochanek\Downloads\Networking_Cs\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.dll
+C:\Users\kochanek\Downloads\Networking_Cs\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.pdb

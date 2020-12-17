@@ -55,12 +55,12 @@ namespace TCPServer
 
                 // sData = sReader.ReadLine();
                 // sData = formatInput(sData);
-                CommandExecutor cme = new CommandExecutor(sWriter,sReader);
-                //VowelsCommand vowelC = new VowelsCommand(sWriter, sReader);
+                //CommandExecutor cme = new CommandExecutor(sWriter,sReader);
+                VowelsCommand vowelC = new VowelsCommand(sWriter, sReader);
                 sWriter.WriteLine("Zadej prikaz: ");
-                // sWriter.WriteLine(vowelC.Execute());
-                sWriter.WriteLine(cme.ExecuteCommand());
-              //  sWriter.WriteLine("");
+                 sWriter.WriteLine(vowelC.Execute());
+                //sWriter.WriteLine(cme.ExecuteCommand());
+              // sWriter.WriteLine("");
                 sWriter.Flush();
             }
         }
